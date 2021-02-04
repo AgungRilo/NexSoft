@@ -1,0 +1,128 @@
+.container{
+	width: 80vh;
+	height: 95vh;
+	display: flex;
+	flex-direction: row;
+	margin:auto;
+	
+}
+body{
+	background-color:cornflowerblue;
+}
+.left{
+	width: 35%;
+	height: 100%;
+	background-color: #c7cfb7;
+	flex-direction: column;
+	display: flex;
+}
+.right{
+    width: 65%;
+	height: 100%;
+	background-color: white;
+	flex-direction: column;
+	display: flex;
+}
+img {
+    
+    border-radius:50% ;
+    width: 17vh;
+    height: 20vh;
+    margin: 4vh 0 0 5vh;
+}
+.contact .p1{
+    color: white;
+    background-color: #5b5b5b;
+    text-align: center;
+    width: 15vh;
+    height: 3vh;
+    font-size: 3vh;
+}
+.contact span{
+    font-size: 2vh;
+    margin-left: 2vh;
+}
+.biodata .p2{
+    margin-top: 2vh;
+    color: white;
+    background-color: #5b5b5b;
+    text-align: center;
+    width: 15vh;
+    height: 3vh;
+    font-size: 3vh;
+}
+.biodata span{
+    font-size: 2vh;
+    margin-left: 2vh;
+}
+.edu .p1{
+    color: white;
+    background-color: #5b5b5b;
+    text-align: center;
+    margin: 7vh auto 0;
+    width: 48vh;
+    height: 3vh;
+    font-size: 3vh;
+}
+.edu .p2{
+    text-align: center;
+    font-size: 1.5vh;
+}
+.edu .p3{
+    margin-left: 8vh;
+    text-align: center;
+    font-size: 1.7vh;
+}
+.edu .p4{
+    margin-left:6vh;
+    font-size:1.4vh;
+}
+.edu .p5{
+    margin-left:14vh;
+    font-size:1.7vh;
+}
+.exp .p1{
+    color: white;
+    background-color: #5b5b5b;
+    text-align: center;
+    margin: 0 auto 0;
+    width: 48vh;
+    font-size: 3vh;
+}
+table{
+    margin-left: 5vh;
+    font-size: 2vh;    
+}
+.train .p1{
+    color: white;
+    background-color: #5b5b5b;
+    text-align: center;
+    margin: 0 auto 0;
+    width: 48vh;
+    font-size: 3vh;
+}
+.skill .p1{
+    color: white;
+    background-color: #5b5b5b;
+    text-align: center;
+    margin: 0 auto 0;
+    width: 48vh;
+    font-size: 3vh;
+}
+
+.lang .p1{
+    color: white;
+    background-color: #5b5b5b;
+    text-align: center;
+    margin: 0 auto 0;
+    width: 48vh;
+    font-size: 3vh;
+}
+.organ .p1{
+    color: white;
+    background-color: #5b5b5b;
+    text-align: center;
+    margin: 0 auto 0;
+    width: 48vh;
+    font-size: 3vh;
+}
