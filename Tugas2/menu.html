@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="menu.css">
+    <script src="menu.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form name="datapribadi" >
+                <h2>FORM BIODATA</h2>
+                <div class="baris">
+                    <div class="col-25">
+                        <label for="fname">Nama</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="nama" class="input" name="nama"  placeholder="Masukkan nama Anda..">
+                    </div>
+                </div>
+                <div class="baris">
+                    <div class="col-25">
+                        <label for="lname">Tempat Lahir</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="tempat" class="input" name="tempat"  placeholder="Masukkan Tempat Lahir..">
+                    </div>
+                </div>
+                <div class="baris">
+                    <div class="col-25">
+                        <label for="lname">Tanggal Lahir</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="date" id="tanggal" class="input" name="tanggal" placeholder="Masukkan Tanggal Lahir..">
+                    </div>
+                </div>
+                <div class="baris">
+                    <div class="col-25">
+                        <label class="label" for="jk">Jenis Kelamin</label>
+                    </div>
+                    <div class="col-75">
+                        <input class="jk" id="jk1" type='radio' name='jenis_kelamin' value='Laki-laki' />Laki-laki
+                    </div>
+                    <div>
+                        <input class="jk" id="jk2" type='radio' name='jenis_kelamin' value='Perempuan' />Perempuan
+                    </div>
+                </div>
+                <div class="baris">
+                    <div class="col-25">
+                        <label class="label" for="hobby">Hobby</label>
+                    </div>
+                    <div class="col-75">
+                        <input class="hobby" id="berenang" type='checkbox' value='Berenang' />Berenang
+                        <input class="hobby" id="jogging" type='checkbox' value='Jogging' />Jogging
+                    </div>
+                    <div>
+                        <input class="hobby" id="bersepeda" type='checkbox' value='Bersepeda' />Bersepeda
+                        <input class="hobby" id="futsal" type='checkbox' value='Futsal' />Futsal
+                    </div>
+                </div>
+                <div class="baris">
+                    <div class="col-25">
+                        <label for="agama">Agama</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="agama" name="agama">
+                            <option value="0">Pilih agama yang tersedia</option>
+                            <option value="Islam">Islam</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Budha">Budha</option>
+                            <option value="Katolik">Katolik</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="baris">
+                    <div class="col-25">
+                        <label for="alamat">Alamat</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="alamat" class="input" name="alamat" placeholder="Masukkan Alamat.." style="height:100px"></textarea>
+                    </div>
+                </div>
+                <div class="baris">
+                    <button id="button1" value="Submit" type="button" class="button1" onclick="validation()">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="daftar">
+            <div class="baris">
+                <div class="col-75">
+                    <select id="cariBerdasarkan">
+                        <option value="">Cari Berdasarkan</option>
+						<option value="cariNama">Nama</option>
+                        <option value="cariAlamat">Alamat</option>
+					</select>
+                    <input type="text" id="inputCari" class="cari" name="cari" placeholder="Ketikkan Sesuatu..">
+                </div>
+            </div>
+            <div class="tabel">
+                <table class="table1">
+                    <thead>
+                        <tr>
+                            <th id="tNo">No</th>
+                            <th id="tNama">Nama</th>
+                            <th id="ttl">Tempat Tanggal Lahir</th>
+                            <th id="tUsia">Usia</th>
+                            <th id="tJk">Jenis Kelamin</th>
+                            <th id="tHobby">Hobby</th>
+                            <th id="tAgama">Agama</th>
+                            <th id="tAlamat">Alamat</th>
+                            <th id="Action">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bodyTable">
+                    </tbody>
+                </table>
+                <div id="page" class="page">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
