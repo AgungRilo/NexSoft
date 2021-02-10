@@ -1,3 +1,4 @@
-import Field from './content';
+import Input from './input';
+import Label from './label';
 
-export {Field}
+export {Label,Input}
